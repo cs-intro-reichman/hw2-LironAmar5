@@ -4,7 +4,7 @@ public class Cheers {
 	    String s = args[0];
             int num = Integer.parseInt(args[1]);
 
-            String letters = "AEFHILMNOR";
+            String letters = "AEFHILMNORSX";
             int i = 0;
             s = s.toUpperCase();
             while ( i < s.length()){
