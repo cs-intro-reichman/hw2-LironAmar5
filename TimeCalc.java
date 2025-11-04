@@ -3,7 +3,7 @@ public class TimeCalc {
         
         int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
-        int minAdd = Integer.parseInt(args[1]); // 1440 minutes in a day
+        int minAdd = Integer.parseInt(args[1]); 
 
         int sum = (hours * 60) + minutes + minAdd;
 
